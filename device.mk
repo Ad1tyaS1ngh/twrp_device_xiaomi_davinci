@@ -19,11 +19,3 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libicuuc.so
-
-# Blacklist
-PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
-    ro.product.device \
-    ro.product.name \
-    ro.build.product \
-    ro.bootimage.build.date.utc \
-    ro.build.date.utc
